@@ -1,0 +1,25 @@
+/* Add your CSS styles here */
+body{
+    background: url('chibi-Overlord.jpg') center/cover no-repeat ;
+}
+h1{
+    color: rgb(53, 58, 194);
+    text-align: center;
+    font-size: 75px;
+}
+
+.contact-box {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Add different background colors for each box */
+.contact-box:nth-child(odd) {
+    background-color: #f3b6b6;
+}
+
+.contact-box:nth-child(even) {
+    background-color: rgb(96, 215, 134);
+}
